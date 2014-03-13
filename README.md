@@ -9,4 +9,4 @@ This achieves something close by drawing the background, which is removed by man
 
 Clicking in the window moves a thin white CALayer behind the text fields, letting you see the effect.
 
-This class is not intended to be used directly, the technique is only of interest if you're animating text.
+The NSTextField subclass is not intended to be used directly, the technique is only of interest if you're animating text.
