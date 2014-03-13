@@ -18,6 +18,8 @@
 		0AEDC82A18D13A9300186819 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0AEDC82818D13A9300186819 /* InfoPlist.strings */; };
 		0AEDC82C18D13A9300186819 /* SubPixelWithoutBackgroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AEDC82B18D13A9300186819 /* SubPixelWithoutBackgroundTests.m */; };
 		0AEDC83618D13B2500186819 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AEDC83518D13B2500186819 /* QuartzCore.framework */; };
+		0AEDC83C18D13F0300186819 /* ManualTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AEDC83B18D13F0300186819 /* ManualTextFieldCell.m */; };
+		0AEDC83F18D1480900186819 /* BackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AEDC83E18D1480900186819 /* BackgroundView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,10 @@
 		0AEDC82918D13A9300186819 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0AEDC82B18D13A9300186819 /* SubPixelWithoutBackgroundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubPixelWithoutBackgroundTests.m; sourceTree = "<group>"; };
 		0AEDC83518D13B2500186819 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = ../../../../../../System/Library/Frameworks/QuartzCore.framework; sourceTree = "<group>"; };
+		0AEDC83A18D13F0300186819 /* ManualTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManualTextFieldCell.h; sourceTree = "<group>"; };
+		0AEDC83B18D13F0300186819 /* ManualTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManualTextFieldCell.m; sourceTree = "<group>"; };
+		0AEDC83D18D1480900186819 /* BackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundView.h; sourceTree = "<group>"; };
+		0AEDC83E18D1480900186819 /* BackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,10 @@
 			isa = PBXGroup;
 			children = (
 				0AEDC81618D13A9200186819 /* MainMenu.xib */,
+				0AEDC83D18D1480900186819 /* BackgroundView.h */,
+				0AEDC83E18D1480900186819 /* BackgroundView.m */,
+				0AEDC83A18D13F0300186819 /* ManualTextFieldCell.h */,
+				0AEDC83B18D13F0300186819 /* ManualTextFieldCell.m */,
 				0AEDC81918D13A9200186819 /* Images.xcassets */,
 				0AEDC80818D13A9200186819 /* Supporting Files */,
 			);
@@ -253,6 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AEDC80E18D13A9200186819 /* main.m in Sources */,
+				0AEDC83C18D13F0300186819 /* ManualTextFieldCell.m in Sources */,
+				0AEDC83F18D1480900186819 /* BackgroundView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,6 +477,7 @@
 				0AEDC83118D13A9300186819 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0AEDC83218D13A9300186819 /* Build configuration list for PBXNativeTarget "SubPixelWithoutBackgroundTests" */ = {
 			isa = XCConfigurationList;
@@ -473,6 +486,7 @@
 				0AEDC83418D13A9300186819 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
